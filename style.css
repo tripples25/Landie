@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: calc(100% - var(--main-padding));
+    padding: 0 0 0 var(--main-padding);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+}
