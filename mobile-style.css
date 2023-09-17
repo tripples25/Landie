@@ -436,6 +436,10 @@
     color: #929ECC;
 }
 
+.scroll-lock {
+    overflow: hidden;
+}
+
 .active {
     transform: translateY(0%);
     transition: transform 1s;
